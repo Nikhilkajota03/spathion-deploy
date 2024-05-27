@@ -30,7 +30,7 @@ app.use(cookieParser());
 
 
 mongoose
-.connect("mongodb+srv://nikhilkajota9413750125:MNrlh4mJbp7kDLvl@spathion-backend.wn5hg3x.mongodb.net/", {
+.connect("https://clever-klepon-0c9a51.netlify.app", {
   dbName: "spation-backend",
 })
 .then(() => {
