@@ -8,7 +8,7 @@ config({ path: "./config/config.env" });
 
 export const dbConnection = () => {
   mongoose
-    .connect("mongodb+srv://nikhilkajota9413750125:MNrlh4mJbp7kDLvl@spathion-backend.wn5hg3x.mongodb.net/", {
+    .connect("mongodb+srv://cyddharthphotos:qODDXhPtobyMCFsa@spathion.ciafmo4.mongodb.net/?retryWrites=true&w=majority&appName=spathion", {
       dbName: "spation-backend",
     })
     .then(() => {
